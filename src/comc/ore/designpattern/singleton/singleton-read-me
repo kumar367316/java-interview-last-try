@@ -1,0 +1,11 @@
+->creational design pattern
+->Only one instance of the class should be exist
+->used in logging,caching and session
+
+->constructor should be private
+->public static method return singleton class object
+->instance type-private static
+
+Initialization Type:
+->Lazy Initialization
+->Thread Safe

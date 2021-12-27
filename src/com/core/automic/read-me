@@ -1,0 +1,6 @@
+Java 5 introduced java.util.concurrent.atomic package with a motive to provide:
+
+A small toolkit of classes that support lock-free thread-safe programming on single variables.
+
+AtomicInteger uses combination of volatile & CAS (compare and swap) to achieve thread-safety for Integer Counter. It is non-blocking in nature 
+and thus highly usable in writing high throughput concurrent data structures that can be used under low to moderate thread contention.
