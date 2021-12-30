@@ -1,0 +1,3 @@
+Abstract Factory Pattern isolates the client code from concrete (implementation) classes.
+It eases the exchanging of object families.
+It promotes consistency among objects.

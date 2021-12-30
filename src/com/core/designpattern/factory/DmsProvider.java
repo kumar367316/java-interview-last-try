@@ -1,18 +1,18 @@
-package comc.ore.designpattern.factory;
+package com.core.designpattern.factory;
 
 import java.util.LinkedList;
 import java.util.List;
 
-public class WmsProvider extends ProductItemDetailsProvider{
+public class DmsProvider extends ProductItemDetailsProvider{
 
 	@Override
 	List<PODetails> getPoItemDetails() {
 		
 		List<PODetails> poDetailsList = new LinkedList<>();
 		PODetails poDetail = new PODetails();
-		poDetail.setPoNbr(5478220);
-		poDetail.setItemNbr(8952432);
-		poDetail.setPoType("WMS");
+		poDetail.setPoNbr(1000989);
+		poDetail.setItemNbr(568420);
+		poDetail.setPoType("DMS");
 		
 		poDetailsList.add(poDetail);
 		

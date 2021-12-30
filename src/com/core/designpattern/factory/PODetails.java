@@ -1,4 +1,4 @@
-package comc.ore.designpattern.factory;
+package com.core.designpattern.factory;
 
 public class PODetails {
 	
