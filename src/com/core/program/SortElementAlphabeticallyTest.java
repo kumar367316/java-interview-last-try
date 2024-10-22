@@ -10,7 +10,7 @@ public class SortElementAlphabeticallyTest {
 		for(int i=0;i<value.length();i++) {
 			if(value.charAt(i) == value.charAt(i+1)) {
 				temp = value.charAt(i);
-				value.charAt(i) = value.charAt(i+1);
+				//value.charAt(i) = value.charAt(i+1);
 				
 			}
 		}

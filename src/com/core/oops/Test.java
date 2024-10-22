@@ -1,5 +1,7 @@
 package com.core.oops;
 
+import java.io.IOException;
+
 class A {
 	void m1() throws IOException {
 		System.out.println("In m1 A");
@@ -7,7 +9,7 @@ class A {
 }
 
 class B extends A {
-	void m1() throws Exception {
+	void m1() {
 		System.out.println("In m1 B");
 	}
 }

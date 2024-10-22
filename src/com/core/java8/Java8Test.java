@@ -15,7 +15,7 @@ public class Java8Test {
 		nameList.add("Smith");
 		nameList.add("Scott");
 
-		nameList.add("Test");
+		nameList.add("CapgeminiTest");
 		nameList.add(2,"abc");
 		
 		List<String> kNamesLiost = 
