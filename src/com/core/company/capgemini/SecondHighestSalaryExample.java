@@ -16,6 +16,12 @@ public class SecondHighestSalaryExample {
             new Employee("Kiran", 65000)
         );
 
+        List<Employee> salaryList = employees.stream().filter(employee->employee.getSalary() >= 65000).collect(Collectors.toList());
+        salaryList.forEach(e -> System.out.println(e.getName() + " - " + e.getSalary()));
+
+        List<Employee> nameSortingList = employees.stream().sorted(Comparator.comparing(Employee::getName)).collect(Collectors.toList());
+        nameSortingList.forEach(e-> System.out.println(e.getName() + "----" + e.getSalary()));
+
         System.out.println(employees.stream()
                 .sorted(Comparator.comparingDouble(Employee::getSalary).reversed())
                 .skip(1)
